@@ -1,0 +1,15 @@
+11.01.2020 chagned httpd.conf
+
+
+file httpd.conf
+
+FROM:
+
+Line	Conntent
+251 DocumentRoot "C:/xampp/htdocs"
+252 <Directory "C:/xampp/htdocs">
+
+TO:
+DocumentRoot "C:\xampp\htdocs\PHPMVCFRAMEWORK\Public"
+<Directory "C:\xampp\htdocs\PHPMVCFRAMEWORK\Public">
+
