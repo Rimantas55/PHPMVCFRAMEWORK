@@ -32,4 +32,3 @@ $router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
  } else {
    echo "No route found for URL '$url'" ; // later will be error 404
  }
-
