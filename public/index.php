@@ -23,7 +23,7 @@
 /**
  * Routing
  */
-require '../Core/Router.php';
+//require '../Core/Router.php';
 
 $router = new Core\Router();
 
